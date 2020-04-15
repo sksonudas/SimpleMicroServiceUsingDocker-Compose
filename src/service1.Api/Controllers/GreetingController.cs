@@ -2,20 +2,36 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace service1.Api.Controllers
 {
+  
     [Route("api/[controller]")]
-    [ApiController]
-    public class ValueController : ControllerBase
+     [ApiController]
+     public class GreetingController : ControllerBase
     {
         // GET: api/Value
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            string greeting = string.Empty;
+            if (DateTime.Now.Hour < 12)
+            {
+                greeting = "Good Morning";
+            }
+            if (DateTime.Now.Hour < 17)
+            {
+                greeting = "Good Afternoon";
+            }
+            else
+            {
+                greeting = "Good Evening";
+            }
+            greeting = String.Format("{0} Sonu !", greeting);
+            return greeting;
         }
 
         // GET: api/Value/5

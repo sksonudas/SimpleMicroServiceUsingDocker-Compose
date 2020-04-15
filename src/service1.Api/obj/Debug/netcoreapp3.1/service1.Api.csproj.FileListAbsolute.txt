@@ -86,9 +86,9 @@ D:\Test\src\service1.Api\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Works
 D:\Test\src\service1.Api\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Test\src\service1.Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Test\src\service1.Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.csproj.CoreCompileInputs.cache
-D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.csproj.CopyComplete
 D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.dll
 D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.pdb
 D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.genruntimeconfig.cache
+D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.csproj.CoreCompileInputs.cache
+D:\Test\src\service1.Api\obj\Debug\netcoreapp3.1\service1.Api.MvcApplicationPartsAssemblyInfo.cache

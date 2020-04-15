@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+<script>
+
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:31069/api/Greeting",
+            success: function (data) {
+                var x = JSON.stringify(data);
+                $("#getSessionStorage").html(data);
+            }, //End of AJAX Success function
+
+            failure: function (data) {
+                alert(data.responseText);
+            }, //End of AJAX failure function
+            error: function (data) {
+                alert(data.responseText);
+            } //End of AJAX error function
+
+        });
+    });
+
+</script>
+
+<div id="getSessionStorage"></div>
